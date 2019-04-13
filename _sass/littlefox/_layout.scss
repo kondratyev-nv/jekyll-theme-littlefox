@@ -48,19 +48,15 @@
   }
 }
 
-
-
 /**
  * Site footer
  */
 .site-footer {
   padding: $spacing-unit 0;
-  font-size: 15px;
+  font-size: 14px;
   color: $grey-color;
   text-align: center;
 }
-
-
 
 /**
  * Page content
@@ -69,16 +65,7 @@
   padding: $spacing-unit 0;
 }
 
-.page-heading {
-  font-size: 38px;
-  margin-bottom: $spacing-unit * 2;
-
-  border-top: 4px solid $grey-color-light;
-  padding-top: $spacing-unit * 2;
-}
-
 .post-list-heading {
-  // font-size: 38px;
   margin-bottom: $spacing-unit;
 
   &:not(:first-child) {
@@ -152,8 +139,6 @@
   }
 }
 
-
-
 /**
  * Posts
  */
@@ -162,47 +147,10 @@
 }
 
 .post-title {
-  // font-size: 38px;
   letter-spacing: -1px;
   line-height: 1;
-
-  @include media-query($on-laptop) {
-    // font-size: 36px;
-  }
 }
 
 .post-content {
   margin-bottom: $spacing-unit;
-
-  h1 {
-    // font-size: 38px;
-
-    @include media-query($on-laptop) {
-      // font-size: 34px;
-    }
-  }
-
-  h2 {
-    // font-size: 32px;
-
-    @include media-query($on-laptop) {
-      // font-size: 28px;
-    }
-  }
-
-  h3 {
-    // font-size: 26px;
-
-    @include media-query($on-laptop) {
-      // font-size: 22px;
-    }
-  }
-
-  h4 {
-    // font-size: 20px;
-
-    @include media-query($on-laptop) {
-      // font-size: 18px;
-    }
-  }
 }

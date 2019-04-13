@@ -13,6 +13,10 @@ timezone: UTC
 exclude:
   - Gemfile
   - Gemfile.lock
+  - README.md
+  - LICENSE
+  - jekyll-theme-littlefox.gemspec
+  - Screenshot_2019-04-12.png
 
 # Build settings
 markdown: kramdown
